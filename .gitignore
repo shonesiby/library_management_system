@@ -1,0 +1,31 @@
+# ── Python ──────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── Virtual environments ─────────────
+venv/
+.env/
+env/
+.venv/
+
+# ── Sensitive / local config ─────────
+# config.py contains your DB password – keep it out of GitHub!
+config.py
+
+# ── OS junk ─────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ─────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Temp / test scripts ───────────────
+test_conn.py
+setup_db.py
