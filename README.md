@@ -51,7 +51,7 @@ library_management_system/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/library_management_system.git
+git clone https://github.com/shonesiby/library_management_system.git
 cd library_management_system
 ```
 
@@ -112,9 +112,3 @@ python main.py
 - `config.py` is excluded from version control (listed in `.gitignore`) to protect your database password.
 - Deleting a member is blocked if they have books currently issued.
 - Book availability updates automatically on issue and return using atomic transactions.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
