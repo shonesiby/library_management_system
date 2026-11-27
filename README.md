@@ -109,6 +109,6 @@ python main.py
 
 ## 📌 Notes
 
-- `config.py` is excluded from version control (listed in `.gitignore`) to protect your database password.
+- `config.py` is excluded from version control (listed in `.gitignore`) to protect database password.
 - Deleting a member is blocked if they have books currently issued.
 - Book availability updates automatically on issue and return using atomic transactions.
